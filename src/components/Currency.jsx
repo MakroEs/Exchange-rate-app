@@ -9,7 +9,7 @@ function Currency() {
   const [toCurrency, setToCurrency] = useState("TRY");
   const [result, setResult] = useState("");
 
-  let token = "fca_live_FXhn90pUyFbfVTdrOWM2D7FM3b9wcfnXrzIYN0tO";
+  let token = //! api key
   let baseUrl = "https://api.freecurrencyapi.com/v1/latest";
 
   const exchange = async () => {
@@ -64,7 +64,7 @@ function Currency() {
             onChange={(e) => setToCurrency(e.target.value)}
             className="second-currency-option"
           >
-            <option>ZAR</option>
+            <option>MXN</option>
             <option>INR</option>
             <option>TRY</option>
             <option>USD</option>
